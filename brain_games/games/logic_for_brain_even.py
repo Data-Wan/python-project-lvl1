@@ -32,7 +32,6 @@ def is_even():
             'user_input': user_input,
             'random_number': random_number,
             'right_answer': is_random_even,
-            'game_rules': game_rules,
         }
 
     return {
@@ -40,7 +39,6 @@ def is_even():
         'user_input': user_input,
         'random_number': random_number,
         'right_answer': is_random_even,
-        'game_rules': game_rules,
     }
 
 

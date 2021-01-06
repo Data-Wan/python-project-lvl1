@@ -33,14 +33,12 @@ def find_gcd():
             'result': True,
             'user_input': user_input,
             'right_answer': divisor,
-            'game_rules': game_rules,
         }
 
     return {
         'result': False,
         'user_input': user_input,
         'right_answer': divisor,
-        'game_rules': game_rules,
     }
 
 

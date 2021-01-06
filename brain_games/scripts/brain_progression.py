@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Script for brain_gcd.
+"""Script for brain_progression.
 
-brain_gcd - game with random numbers
-User must answer what the greatest divisor of  number1 and number2.
+brain_progression - game with random numbers
+User must answer what number missed.
 """
 
-
-from brain_games.games.logic_for_brain_gcd import find_gcd, game_rules
+from brain_games.games.logic_for_brain_progression import game_rules, prog
 from brain_games.scripts.brain_games import main as welcome
 
 wrong_answer_out = """
@@ -30,7 +29,7 @@ def main():
     name = welcome()
     print(game_rules)
     correct_answer_count = 0
-    result_of_game = find_gcd()
+    result_of_game = prog()
 
     while result_of_game['result']:
         correct_answer_count += 1
@@ -40,7 +39,7 @@ def main():
             print('Congratulations, {0}!'.format(name))
             return 0
 
-        result_of_game = find_gcd()
+        result_of_game = prog()
 
     print(
         wrong_answer_out.

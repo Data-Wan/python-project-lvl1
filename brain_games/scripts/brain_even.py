@@ -8,7 +8,7 @@ User must answer is number even  or not.
 """
 
 
-from brain_games.games.logic_for_brain_even import is_even
+from brain_games.games.logic_for_brain_even import game_rules, is_even
 from brain_games.scripts.brain_games import main as welcome
 
 wrong_answer_out = """
@@ -28,10 +28,9 @@ def main():
         str
     """
     name = welcome()
-
+    print(game_rules)
     correct_answer_count = 0
     result_of_game = is_even()
-    print(result_of_game['game_rules'])
     while result_of_game['result']:
         correct_answer_count += 1
         print('Correct!')
