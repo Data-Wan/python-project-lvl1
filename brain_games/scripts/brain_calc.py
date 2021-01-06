@@ -8,7 +8,7 @@ User must answer what number equals number1 + number2.
 """
 
 
-from brain_games.games.logic_for_brain_calc import calc
+from brain_games.games.logic_for_brain_calc import calc, game_rules
 from brain_games.scripts.brain_games import main as welcome
 
 wrong_answer_out = """
@@ -29,8 +29,8 @@ def main():
     """
     name = welcome()
     correct_answer_count = 0
+    print(game_rules)
     result_of_game = calc()
-    print(result_of_game['game_rules'])
 
     while result_of_game['result']:
         correct_answer_count += 1
