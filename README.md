@@ -12,3 +12,6 @@ asciinema brain-calc example
 
 asciinema brain-gcd example
 <https://asciinema.org/a/ei5CWYQFZNccZRkogrDgkUHjA>
+
+asciinema brain-progression example
+<https://asciinema.org/a/dt8mJ2Pw1tVXINRSq7NuUmDig>
