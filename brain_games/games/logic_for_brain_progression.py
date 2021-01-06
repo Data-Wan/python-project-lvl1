@@ -10,7 +10,7 @@ import random
 import prompt
 
 
-def prog():
+def prog():  # noqa: WPS210
     """Return True or False, user input and right answer.
 
     True - correct answer, user win.
