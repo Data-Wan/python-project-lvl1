@@ -5,6 +5,8 @@ install:
 brain-games:
 	@poetry run brain_games
 
+brain-even:
+	@poetry run brain_even
 
 publish:
 	poetry publish --dry-run
