@@ -6,3 +6,6 @@
 
 asciinema brain-even example
 <https://asciinema.org/connect/9f09ae4d-b10c-4701-9a8b-8607525aaf51>
+
+asciinema brain-calc example
+<https://asciinema.org/a/D7MI4oLTRRHMpwVgWCY0kcpcN>

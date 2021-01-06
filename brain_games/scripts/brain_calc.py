@@ -15,7 +15,7 @@ game_rules = 'What is the result of the expression?'
 
 wrong_answer_out = """
 '{0}' is wrong answer ;(. Correct answer was '{1}'.
-"Let's try again, {2}!'
+Let's try again, {2}!'
     """
 
 
