@@ -15,7 +15,7 @@ import prompt
 def is_even():
     """Return True or False.
 
-    True - correct answer, stop game, 3 winstreak, user win.
+    True - correct answer, user win.
     False - wrong answer, stop game, computer win
 
     Returns:

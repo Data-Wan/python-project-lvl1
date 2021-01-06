@@ -24,6 +24,7 @@ def main():
     Describe game rules and ask a question.
 
     User need 3 correct answer in a row for win.
+    One lose = game over
 
     Returns:
         str
