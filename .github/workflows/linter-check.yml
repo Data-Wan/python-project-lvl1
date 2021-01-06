@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         # we want to test our package on several versions of Python
-        python-version: [3.6, 3.7, 3.8]
+        python-version: [3.8]
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python ${{ matrix.python-version }}
@@ -19,6 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install poetry
+          poetry init
           make install
       - name: Run linter and pytest
         run: |
