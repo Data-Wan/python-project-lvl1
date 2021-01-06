@@ -12,7 +12,7 @@ publish:
 	poetry publish --dry-run
 
 
-package-install:
+package-install: build
 	pipx install dist/*.whl
 
 package-uninstall:

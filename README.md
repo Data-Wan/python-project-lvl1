@@ -9,3 +9,6 @@ asciinema brain-even example
 
 asciinema brain-calc example
 <https://asciinema.org/a/D7MI4oLTRRHMpwVgWCY0kcpcN>
+
+asciinema brain-gcd example
+<https://asciinema.org/a/ei5CWYQFZNccZRkogrDgkUHjA>
