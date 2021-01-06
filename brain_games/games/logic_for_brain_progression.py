@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""Module with logic for game brain_gcd.
+"""Module with logic for game brain_progression.
 
-brain_gcd - game with random numbers
-User must answer what the greatest divisor of  number1 and number2.
+brain_brain_progression - game with random numbers
+User must answer fill missed number in a arithmetic progression.
 """
 
 import random

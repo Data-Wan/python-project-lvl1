@@ -15,3 +15,6 @@ asciinema brain-gcd example
 
 asciinema brain-progression example
 <https://asciinema.org/a/dt8mJ2Pw1tVXINRSq7NuUmDig>
+
+asciinema brain-prime example
+<https://asciinema.org/a/wC2lpKB0EjRi4OzO11RVOouTx>

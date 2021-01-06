@@ -3,11 +3,11 @@
 
 """Script for brain_progression.
 
-brain_brain_progression - game with random numbers
-User must answer fill missed number in a arithmetic progression.
+brain_prime - game with random numbers
+User must answer is number prime or not.
 """
 
-from brain_games.games.logic_for_brain_progression import game_rules, prog
+from brain_games.games.logic_for_brain_prime import game_rules, prog
 from brain_games.scripts.brain_games import main as welcome
 
 wrong_answer_out = """
