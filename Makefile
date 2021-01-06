@@ -29,6 +29,9 @@ check: selfcheck lint
 build: check
 	poetry build
 
+test:
+	poetry run pytest brain_games tests
+
 
 
 .PHONY: test build publish lint selfcheck check install test lint selfcheck check build
