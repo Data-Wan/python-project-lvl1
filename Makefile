@@ -3,7 +3,7 @@ install:
 	
 
 brain-games:
-	@poetry run brain-games
+	@poetry run brain_games
 
 
 publish:
