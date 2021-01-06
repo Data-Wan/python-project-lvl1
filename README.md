@@ -1,3 +1,8 @@
+# Descrition
+It's game package. 'brain-even' check even or not, 'brain-calc' calculator game, 'brain-gcd' find biggest common divisor, 'brain-progression' fill mised number in arithmetic progression, 'brain-prime' check prime or not.
+
+For start input game-name from description.
+
 # Hexlet tests and linter status
 
 [![Actions Status](https://github.com/Data-Wan/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Data-Wan/python-project-lvl1/actions)
@@ -17,4 +22,4 @@ asciinema brain-progression example
 <https://asciinema.org/a/dt8mJ2Pw1tVXINRSq7NuUmDig>
 
 asciinema brain-prime example
-<https://asciinema.org/a/wC2lpKB0EjRi4OzO11RVOouTx>
+<https://asciinema.org/a/wC2lpKB0EjRi4OzO11RV#OouTx>
