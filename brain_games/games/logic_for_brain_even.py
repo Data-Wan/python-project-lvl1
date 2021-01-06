@@ -32,6 +32,7 @@ def is_even():
             'user_input': user_input,
             'random_number': random_number,
             'right_answer': is_random_even,
+            'game_rules': game_rules,
         }
 
     return {
@@ -39,7 +40,9 @@ def is_even():
         'user_input': user_input,
         'random_number': random_number,
         'right_answer': is_random_even,
+        'game_rules': game_rules,
     }
 
 
 question = 'Question: {0}\nYour answer: '
+game_rules = 'Answer "yes" if the number is even, otherwise answer "no".'

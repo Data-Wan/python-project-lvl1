@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
+"""Module with logic for game brain_gcd.
 
-"""Module with logic for game brain_calc.
-
-brain_calc - game with random numbers
-User must answer what number equals number1 + number2.
+brain_gcd - game with random numbers
+User must answer what the greatest divisor of  number1 and number2.
 """
 
-
 import random
+from math import gcd
 
 import prompt
 
 
-def calc():
+def find_gcd():
     """Return True or False, user input and right answer.
 
     True - correct answer, user win.
@@ -24,25 +23,26 @@ def calc():
     random_number1 = random.randint(1, 100)
     random_number2 = random.randint(1, 100)
 
-    calculation = random_number1 + random_number2
+    divisor = gcd(random_number1, random_number2)
+
     user_input = prompt.string(question.format(random_number1, random_number2))
 
-    if user_input == str(calculation):
+    if user_input == str(divisor):
 
         return {
             'result': True,
             'user_input': user_input,
-            'right_answer': calculation,
+            'right_answer': divisor,
             'game_rules': game_rules,
         }
 
     return {
         'result': False,
         'user_input': user_input,
-        'right_answer': calculation,
+        'right_answer': divisor,
         'game_rules': game_rules,
     }
 
 
-question = 'Question: {0} + {1}\nYour answer: '
-game_rules = 'What is the result of the expression?'
+question = 'Question: {0} {1}\nYour answer: '
+game_rules = 'Find the greatest common divisor of given numbers.'

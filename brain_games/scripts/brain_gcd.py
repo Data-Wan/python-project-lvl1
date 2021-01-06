@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Script for brain_even.
+"""Script for brain_gcd.
 
-brain_even - game with random numbers
-User must answer is number even  or not.
+brain_gcd - game with random numbers
+User must answer what the greatest divisor of  number1 and number2.
 """
 
 
-from brain_games.games.logic_for_brain_even import is_even
+from brain_games.games.logic_for_brain_gcd import find_gcd
 from brain_games.scripts.brain_games import main as welcome
 
 wrong_answer_out = """
@@ -28,10 +28,10 @@ def main():
         str
     """
     name = welcome()
-
     correct_answer_count = 0
-    result_of_game = is_even()
+    result_of_game = find_gcd()
     print(result_of_game['game_rules'])
+
     while result_of_game['result']:
         correct_answer_count += 1
         print('Correct!')
@@ -40,7 +40,7 @@ def main():
             print('Congratulations, {0}!'.format(name))
             return 0
 
-        result_of_game = is_even()
+        result_of_game = find_gcd()
 
     print(
         wrong_answer_out.
