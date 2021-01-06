@@ -8,7 +8,7 @@ User must answer what number equals number1 + number2.
 """
 
 
-from brain_games.logic_for_brain_calc import calc
+from brain_games.games.logic_for_brain_calc import calc
 from brain_games.scripts.brain_games import main as welcome
 
 game_rules = 'What is the result of the expression?'

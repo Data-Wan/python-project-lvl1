@@ -8,7 +8,7 @@ User must answer is number even  or not.
 """
 
 
-from brain_games.logic_for_brain_even import is_even
+from brain_games.games.logic_for_brain_even import is_even
 from brain_games.scripts.brain_games import main as welcome
 
 game_rules = 'Answer "yes" if the number is even, otherwise answer "no".'
