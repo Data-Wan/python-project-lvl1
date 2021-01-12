@@ -1,4 +1,4 @@
-# Descrition
+# Description
 It's game package. 'brain-even' check even or not, 'brain-calc' calculator game, 'brain-gcd' find biggest common divisor, 'brain-progression' fill mised number in arithmetic progression, 'brain-prime' check prime or not.
 
 For start input game-name from description.
